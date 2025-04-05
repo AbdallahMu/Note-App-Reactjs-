@@ -1,0 +1,11 @@
+.btn{
+    @apply px-6 py-3 bg-blue-500 text-white rounded-lg hover:bg-blue-400 transition-all 
+}
+
+.btn-delete{
+    @apply px-6 py-3 bg-red-500 text-white rounded-lg hover:bg-red-300 transition-all 
+}
+
+.btn[disabled]{
+    @apply  opacity-65 hover:bg-blue-500
+}
